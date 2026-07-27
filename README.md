@@ -7,12 +7,6 @@
 ![Scikit-learn](https://img.shields.io/badge/Scikit--Learn-Machine%20Learning-orange?style=for-the-badge&logo=scikitlearn)
 ![Streamlit](https://img.shields.io/badge/Streamlit-Deployed-red?style=for-the-badge&logo=streamlit)
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://ecofreindlyappuctregression-nhw8zsnzsqknj8gswsgp4y.streamlit.app/)
-
-<a href="https://ecofreindlyappuctregression-nhw8zsnzsqknj8gswsgp4y.streamlit.app/">
-<img src="https://img.shields.io/badge/🚀%20Launch%20Live%20App-Streamlit-red?style=for-the-badge&logo=streamlit">
-</a>
-
 </div>
 
 ---
@@ -28,8 +22,6 @@ The project compares multiple regression algorithms and selects the best-perform
 # 🌐 Live Demo
 
 ## 🚀 Try the Live Application
-
-### https://ecofreindlyappuctregression-nhw8zsnzsqknj8gswsgp4y.streamlit.app/
 
 <div align="center">
 
