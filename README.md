@@ -6,7 +6,7 @@
 ![Scikit-learn](https://img.shields.io/badge/Scikit--Learn-Machine%20Learning-orange?style=for-the-badge&logo=scikitlearn)
 ![Streamlit](https://img.shields.io/badge/Streamlit-Deployed-red?style=for-the-badge&logo=streamlit)
 
-<a href="YOUR_STREAMLIT_APP_LINK">
+<a href="https://ecofreindlyappuctregression-nhw8zsnzsqknj8gswsgp4y.streamlit.app/">
 <img src="https://img.shields.io/badge/🚀%20Launch%20Live%20App-Streamlit-red?style=for-the-badge&logo=streamlit">
 </a>
 
@@ -16,9 +16,9 @@
 
 ## 📌 Project Overview
 
-**Eco-Friendly Product Sales Prediction** is an end-to-end Machine Learning project that predicts the **weekly sales of eco-friendly products** using marketing, customer behavior, seasonal, and weather-related features.
+**Eco-Friendly Product Sales Prediction** is an end-to-end Machine Learning project that predicts the **weekly sales of eco-friendly products** using marketing activities, customer footfall, online search trends, weather conditions, seasonal information, and holiday effects.
 
-The project is deployed as an interactive **Streamlit Web Application**, where users can enter weekly business metrics and instantly receive predicted weekly sales along with estimated monthly, quarterly, and yearly sales.
+The model is deployed as an interactive **Streamlit Web Application**, allowing users to enter business-related inputs and instantly receive predicted weekly sales along with estimated monthly, quarterly, and yearly sales.
 
 ---
 
@@ -26,7 +26,7 @@ The project is deployed as an interactive **Streamlit Web Application**, where u
 
 <div align="center">
 
-<a href="YOUR_STREAMLIT_APP_LINK">
+<a href="https://ecofreindlyappuctregression-nhw8zsnzsqknj8gswsgp4y.streamlit.app/">
 <img src="https://img.shields.io/badge/🚀%20Open%20Live%20Application-Streamlit-red?style=for-the-badge&logo=streamlit">
 </a>
 
@@ -37,7 +37,7 @@ The project is deployed as an interactive **Streamlit Web Application**, where u
 ## ✨ Key Features
 
 - 🌱 Weekly Sales Prediction
-- 📅 Estimated Monthly Sales
+- 🗓 Estimated Monthly Sales
 - 📊 Estimated Quarterly Sales
 - 📈 Estimated Yearly Sales
 - ⚙️ Automated Feature Engineering
@@ -73,29 +73,29 @@ The project is deployed as an interactive **Streamlit Web Application**, where u
 
 # ⚙️ Feature Engineering
 
-To improve model performance, several custom features were engineered.
+Several custom features were engineered to improve model performance.
 
 ### 📌 Year
 
-Extracted from the **Week Start Date** to capture yearly trends.
+Extracted from the week start date to capture yearly sales trends.
 
 ---
 
 ### 📌 Month
 
-Captures seasonal sales patterns throughout the year.
+Captures monthly seasonality in sales.
 
 ---
 
 ### 📌 Quarter
 
-Represents business quarters to identify quarterly sales trends.
+Represents quarterly business patterns.
 
 ---
 
 ### 📌 Week Number
 
-Represents the week of the year to capture weekly seasonality.
+Captures weekly seasonal effects.
 
 ---
 
@@ -105,7 +105,7 @@ Represents the week of the year to capture weekly seasonality.
 marketing_spend × google_trend_score
 ```
 
-Measures the combined impact of marketing campaigns and online customer interest.
+Measures the combined effect of marketing campaigns and online customer interest.
 
 ---
 
@@ -115,7 +115,7 @@ Measures the combined impact of marketing campaigns and online customer interest
 marketing_spend × store_visits
 ```
 
-Captures how marketing effectiveness changes with customer footfall.
+Represents the interaction between marketing investment and customer footfall.
 
 ---
 
@@ -125,7 +125,7 @@ Captures how marketing effectiveness changes with customer footfall.
 marketing_spend × holiday_flag
 ```
 
-Represents marketing investment during holiday weeks.
+Captures the impact of marketing campaigns during holiday weeks.
 
 ---
 
@@ -135,7 +135,7 @@ Represents marketing investment during holiday weeks.
 store_visits / (google_trend_score + 1)
 ```
 
-Measures how efficiently online interest converts into store visits.
+Measures how effectively online search interest converts into store visits.
 
 ---
 
@@ -146,15 +146,15 @@ Measures how efficiently online interest converts into store visits.
 | Linear Regression | XX.XX | XX.XX | XX.XX |
 | Ridge Regression | XX.XX | XX.XX | XX.XX |
 | Lasso Regression | XX.XX | XX.XX | XX.XX |
-| Polynomial Linear Regression | **XX.XX** | **XX.XX** | **XX.XX** |
+| **🏆 Polynomial Linear Regression** | **XX.XX** | **XX.XX** | **XX.XX** |
 
-> Replace the values above with your actual evaluation metrics.
+> Replace the above values with your actual model evaluation metrics.
 
 ---
 
 # 🏆 Best Performing Model
 
-**Polynomial Linear Regression** achieved the best overall performance and was selected as the final production model.
+**Polynomial Linear Regression** achieved the best predictive performance and was selected as the final production model.
 
 ### Final Performance
 
@@ -163,8 +163,6 @@ Measures how efficiently online interest converts into store visits.
 | R² Score | **XX.XX** |
 | MAE | **XX.XX** |
 | RMSE | **XX.XX** |
-
-> Update these values with your model's results.
 
 ---
 
@@ -204,10 +202,10 @@ Streamlit Deployment
 
 The regression models were evaluated using:
 
-- R² Score
-- Mean Absolute Error (MAE)
-- Mean Squared Error (MSE)
-- Root Mean Squared Error (RMSE)
+- 📈 R² Score
+- 📉 Mean Absolute Error (MAE)
+- 📊 Mean Squared Error (MSE)
+- 📏 Root Mean Squared Error (RMSE)
 
 ---
 
@@ -241,7 +239,7 @@ Eco-Friendly-Product-Sales-Prediction/
 
 The application provides:
 
-- 📅 Predicted Weekly Sales
+- 🌱 Predicted Weekly Sales
 - 🗓 Estimated Monthly Sales
 - 📊 Estimated Quarterly Sales
 - 📈 Estimated Yearly Sales
@@ -251,34 +249,44 @@ The application provides:
 
 ---
 
-# 🖥️ Application Preview
+# 💻 Application Screenshots
 
-Add screenshots of your Streamlit application here.
+## 🏠 Home Page
 
-Example:
+_Add your homepage screenshot here._
 
-- 🏠 Home Page
-- 📊 Prediction Result
-- 📋 Input Sidebar
+---
+
+## 📊 Prediction Results
+
+_Add your prediction output screenshot here._
+
+---
+
+## 📋 Sidebar Inputs
+
+_Add your sidebar screenshot here._
 
 ---
 
 # 🚀 Future Improvements
 
 - Compare multiple regression algorithms
+- Hyperparameter tuning
 - Feature importance visualization
 - Sales trend forecasting
+- Interactive dashboards
 - Download prediction reports
-- Interactive visual analytics dashboard
+- Time-series forecasting
 
 ---
 
 # 👨‍💻 Author
 
-### Dhruv Rapariya
+### **Dhruv Rapariya**
 
-- **LinkedIn:** https://www.linkedin.com/in/dhruv-rapariya
-- **GitHub:** https://github.com/Dhruv-develop
+- 🔗 **LinkedIn:** https://www.linkedin.com/in/dhruv-rapariya
+- 💻 **GitHub:** https://github.com/Dhruv-develop
 
 ---
 
