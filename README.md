@@ -258,47 +258,9 @@ The application provides:
 
 ---
 
-# 💻 Application Screenshots
-
-## 🏠 Home Page
-
-> Add a screenshot of your Streamlit home page here.
-
----
-
-## 📊 Prediction Result
-
-> Add a screenshot showing the predicted sales output.
-
----
-
-## 📋 Sidebar Input Panel
-
-> Add a screenshot of the sidebar with input controls.
-
----
-
-# 🚀 Future Improvements
-
-- Time Series Forecasting
-- Hyperparameter Optimization
-- Feature Importance Visualization
-- Download Prediction Reports
-- Interactive Sales Dashboard
-- Model Explainability using SHAP
-- Support Additional Regression Algorithms
-
----
-
 # 👨‍💻 Author
 
 ## **Dhruv Rapariya**
-
-🔗 **LinkedIn:**  
-https://www.linkedin.com/in/dhruv-rapariya
-
-💻 **GitHub:**  
-https://github.com/Dhruv-develop
 
 ---
 
