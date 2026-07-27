@@ -3,7 +3,6 @@
 <div align="center">
 
 ![Python](https://img.shields.io/badge/Python-3.12-blue?style=for-the-badge&logo=python)
-![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?style=for-the-badge&logo=pandas)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--Learn-Machine%20Learning-orange?style=for-the-badge&logo=scikitlearn)
 ![Streamlit](https://img.shields.io/badge/Streamlit-Deployed-red?style=for-the-badge&logo=streamlit)
 
@@ -223,10 +222,13 @@ The regression models were evaluated using:
 - 🐍 Python
 - 🐼 Pandas
 - 🔢 NumPy
+- 📊 Matplotlib
+- 📈 Seaborn
+- 📉 Plotly
 - 🤖 Scikit-learn
 - 🌐 Streamlit
 - 💾 Joblib
-
+  
 ---
 
 # 📂 Project Structure
