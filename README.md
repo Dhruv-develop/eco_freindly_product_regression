@@ -21,8 +21,6 @@ The project compares multiple regression algorithms and selects the best-perform
 
 # 🌐 Live Demo
 
-## 🚀 Try the Live Application
-
 <div align="center">
 
 <a href="https://ecofreindlyappuctregression-nhw8zsnzsqknj8gswsgp4y.streamlit.app/">
